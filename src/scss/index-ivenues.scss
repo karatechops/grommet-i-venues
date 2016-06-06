@@ -1,0 +1,56 @@
+// (C) Copyright 2014-2015 Hewlett Packard Enterprise Development LP
+
+@import 'grommet/scss/hpe/index';
+
+$brand-color-dark: #2b4356;
+$brand-blue-dark: #231f20;
+$brand-accent: #58C5CD;
+$layer-bg: #38d1c8;
+$brand-color-lighter: #5dc5cc;
+$base-padding: 24px;
+
+@import 'objects.progress';
+@import 'objects.hotspot';
+@import 'objects.carousel';
+@import 'objects.layer';
+@import 'nav';
+@import 'scenes';
+
+.grommet.app {
+	// Set to relative position to allow for
+	// window scrolling listeners.
+	position: relative;
+	top: auto;
+	left: auto;
+	right: auto;
+	bottom: auto;
+}
+
+.headline {
+	width: 100%;
+	padding-left: $base-padding;
+	padding-right: $base-padding;
+	max-width: 980px;
+	// Fix Chrome opacity animation bug by
+	// translating Z.
+	transform: translateZ(0);
+
+	&.headline--small {
+		line-height: 1.1;
+	}
+}
+
+.background-color-index-light-1 {
+    background-color: #fff;
+    color: $brand-blue-dark;
+}
+
+.background-color-index-light-2 {
+    background-color: #f6f6f6;
+    color: $brand-blue-dark;
+}
+
+.box__container {
+  padding-left: 0;
+  padding-right: 0;
+}

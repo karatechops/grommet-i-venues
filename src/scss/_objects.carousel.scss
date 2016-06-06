@@ -1,0 +1,129 @@
+$padding: 30px;
+
+@mixin carousel-reveal-prev($duration, $delay) {
+  -webkit-animation-name: slide-from-left;
+  -webkit-animation-duration: $duration;
+  -webkit-animation-delay: $delay;
+  animation-name: slide-from-left;
+  animation-duration: $duration;
+  animation-delay: $delay;
+}
+
+@mixin carousel-reveal-next($duration, $delay) {
+  -webkit-animation-name: slide-from-right;
+  -webkit-animation-duration: $duration;
+  -webkit-animation-delay: $delay;
+  animation-name: slide-from-right;
+  animation-duration: $duration;
+  animation-delay: $delay;
+}
+
+@keyframes slide-from-right {
+  0% {
+  	-webkit-transform: translateX(calc(100%)) translateY(-50%);
+  	transform: translateX(calc(100%)) translateY(-50%);
+  }
+
+  100% {
+  	-webkit-transform: translateX(0%) translateY(-50%);
+  	transform: translateX(0%) translateY(-50%);
+  }
+}
+
+@keyframes slide-from-left {
+  0% {
+  	-webkit-transform: translateX(-100%) translateY(-50%);
+  	transform: translateX(-100%) translateY(-50%);
+  }
+
+  100% {
+  	-webkit-transform: translateX(0%) translateY(-50%);
+  	transform: translateX(0%) translateY(-50%);
+  }
+}
+
+.carousel {
+	width: 100%;
+	overflow: visible;
+
+	.carousel__controls {
+		// Push dot nav below illustration.
+		// Remove for commit
+		bottom: -28px;
+	}
+
+	.carousel__control {
+		stroke: $brand-accent;
+		stroke-width: 2px;
+		-webkit-filter: none;
+		filter: none;
+		height: 23px;
+		width: 23px;
+	}
+
+	.carousel__control--active {
+    stroke: $brand-accent;
+    fill: $brand-accent;
+	}
+
+	.button__icon {
+		padding: 8px;
+	}
+
+	.control-icon--large {
+		width: 40px;
+		height: 40px;
+	}
+
+	.carousel__arrow {
+		//background: $brand-color;
+		z-index: 5;
+		@media(max-width: 45em) { display: none; }
+
+		.control-icon {
+	    width: 25px;
+    	height: 25px;
+			transition: all 0.3s;
+    	-webkit-filter: none;
+
+    	polyline { stroke: rgba(118, 118, 118, 1); }
+		}
+
+		&.carousel__arrow--next {
+			padding-right: $padding;
+			@include carousel-reveal-next(0.3s, 0s);
+		}
+
+		&.carousel__arrow--prev {
+			padding-left: $padding;
+			@include carousel-reveal-prev(0.3s, 0s);
+		}
+	}
+
+	.carousel__arrow--next:hover .button__icon svg {
+		transform: translateX(3px);
+	}
+
+	.carousel__arrow--prev:hover .button__icon svg {
+		transform: translateX(-3px);
+	}
+
+	.carousel__track {
+		transition: margin-left 0.8s;
+	}
+
+@media(min-width: 45em) {
+		.carousel__arrow .control-icon {
+			width: 34px;
+			height: 34px;
+		}
+
+		.control-icon-previous {
+			padding-right: 3px;
+		}
+
+		.control-icon-next {
+			padding-left: 3px;
+		}
+	}
+}

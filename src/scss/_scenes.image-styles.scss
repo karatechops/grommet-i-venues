@@ -1,0 +1,57 @@
+.animation {
+
+  .svg-stroke--dotted {
+    stroke-width: 1px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 0,3;
+  }
+
+  .svg-stroke--green {
+    fill: none;
+    stroke: #6A817C;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+  };
+
+  .svg-fill--white {
+    fill: #FFFFFF;
+  };
+
+  .svg-fill--none {
+    fill: none;
+  };
+
+  .svg-fill--brand {
+    fill: $brand-color;
+  }
+
+  .svg-stroke--orange {
+    fill: none;
+    stroke: #F68D71;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+  };
+
+  .svg-stroke--dark {
+    fill: none;
+    stroke: #211F1F;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+  };
+
+  .svg-stroke--brand {
+    fill: none;
+    stroke: $brand-color;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+  };
+
+  .svg-stroke--accent {
+    fill: none;
+    stroke: #56c5d0;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+  };
+}

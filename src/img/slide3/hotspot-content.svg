@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-34 76.8 217.8 137.2" style="enable-background:new -34 76.8 217.8 137.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#F69679;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:#00B288;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:square;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#56C5D0;stroke-width:2;stroke-linecap:square;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#F69679;stroke-width:2;stroke-linecap:square;stroke-miterlimit:10;}
+	.st6{fill:#FFFFFF;}
+	.st7{fill:none;stroke:#4DC2BF;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<circle id="XMLID_125_" class="st0" cx="148.1" cy="143.1" r="4.5"/>
+		<g>
+			<path class="st1" d="M134.7,160.7c-5.3-4-8.7-10.4-8.7-17.6c0-12.2,9.9-22.1,22.1-22.1c12.2,0,22.1,9.9,22.1,22.1
+				c0,7.2-3.4,13.5-8.7,17.6"/>
+			<path class="st1" d="M166.9,167.7c7.4-5.6,12.1-14.5,12.1-24.5c0-17-13.8-30.9-30.9-30.9c-17.1,0-30.9,13.8-30.9,30.9
+				c0,10,4.8,18.9,12.1,24.5"/>
+			<path class="st1" d="M140.3,153.4c-3.1-2.4-5.2-6.1-5.2-10.4c0-7.2,5.8-13,13-13c7.2,0,13,5.8,13,13c0,4.2-2,8-5.2,10.4"/>
+			<path class="st1" d="M161.5,160.7c5.3-4,8.7-10.4,8.7-17.6c0-12.2-9.9-22.1-22.1-22.1c-12.2,0-22.1,9.9-22.1,22.1
+				c0,7.2,3.4,13.5,8.7,17.6"/>
+			<path class="st1" d="M156,153.4c3.1-2.4,5.2-6.1,5.2-10.4c0-7.2-5.8-13-13-13c-7.2,0-13,5.8-13,13c0,4.2,2,8,5.2,10.4"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g id="XMLID_116_">
+					<rect id="XMLID_119_" x="-30" y="79.6" class="st1" width="81" height="131.3"/>
+					<line id="XMLID_118_" class="st1" x1="51.1" y1="179.7" x2="-30.5" y2="179.7"/>
+					<circle id="XMLID_117_" class="st1" cx="10.5" cy="195.8" r="5.5"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<path class="st2" d="M41.7,88.7v81.6h-62.8V88.7H41.7 M44.7,85.7h-68.8v87.6h68.8V85.7L44.7,85.7z"/>
+		</g>
+	</g>
+	<g>
+		<circle class="st3" cx="100.1" cy="144.2" r="2.7"/>
+		<circle class="st4" cx="84.3" cy="144.2" r="2.7"/>
+		<circle class="st5" cx="68.5" cy="144.2" r="2.7"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st6" d="M-7.5,120.5C-7.5,133,9,154.3,9,154.3s16.5-21.3,16.5-33.8c0-9-7.4-16.4-16.5-16.4
+			C-0.1,104.2-7.5,111.5-7.5,120.5z"/>
+		<path class="st7" d="M-7.5,119.6c0,12.6,16.5,34.1,16.5,34.1s16.5-21.5,16.5-34.1c0-9.1-7.4-16.5-16.5-16.5
+			C-0.1,103.1-7.5,110.5-7.5,119.6z"/>
+		<circle class="st0" cx="9" cy="119.6" r="7.5"/>
+	</g>
+</g>
+</svg>
