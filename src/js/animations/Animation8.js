@@ -4,7 +4,6 @@ import '../../lib/gsap/TimelineMax';
 import GSAP from 'react-gsap-enhancer';
 import Headline from 'grommet/components/Headline';
 import Button from 'grommet/components/Button';
-import Anchor from 'grommet/components/Anchor';
 import EndButton from '../components/EndButton';
 import ScrollToTop from '../utils/ScrollToTop';
 
