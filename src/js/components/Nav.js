@@ -85,16 +85,16 @@ export default class Nav extends Component {
             </Headline>
             <div className="share__icons">
               <SocialShare type={"email"} 
-              link={"http://bit.ly/20XgcQ9"} 
+              link={"http://intelligent-venues.grommet.io/"} 
               title={"Hewlett Packard Enterprise - Intelligent Venues"} 
               text="HPE is helping stadiums, theme parks and cultural institutions turn visitors into super fans." />
               <SocialShare type={"twitter"} 
-              link={"http://bit.ly/20XgcQ9"} 
+              link={"http://intelligent-venues.grommet.io/"} 
               text={"@HPE is helping stadiums, theme parks and cultural institutions turn visitors into super fans."} />
               <SocialShare type={"facebook"} 
-              link={"http://bit.ly/20XgcQ9"} />
+              link={"http://intelligent-venues.grommet.io/"} />
               <SocialShare type={"linkedin"} 
-              link={"http://bit.ly/20XgcQ9"} 
+              link={"http://intelligent-venues.grommet.io/"} 
               title={"Hewlett Packard Enterprise - Intelligent Venues"}
               text="HPE is helping stadiums, theme parks and cultural institutions turn visitors into super fans." />
             </div>

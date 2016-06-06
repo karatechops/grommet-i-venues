@@ -4,6 +4,7 @@ import '../../lib/gsap/TimelineMax';
 import GSAP from 'react-gsap-enhancer';
 import Headline from 'grommet/components/Headline';
 import Button from 'grommet/components/Button';
+import Anchor from 'grommet/components/Anchor';
 import EndButton from '../components/EndButton';
 import ScrollToTop from '../utils/ScrollToTop';
 
@@ -75,7 +76,7 @@ class Animation1 extends Component {
         </div>
         <Headline name="text1" size="small">Learn more about how HPE is helping venues accelerate digital transformation.</Headline>
         <div name="cta" className={`${CLASS_ROOT}__button-cta`}>
-          <Button label="Learn more" primary={true} onClick={this._clickHandler}/>
+          <Button href="http://www.hpe.com/solutions/enable" label="Learn more" primary={true} />
         </div>
         <EndButton onClick={this._scrollBackHandler}/>
       </div>
