@@ -41,16 +41,15 @@ class Animation1 extends Component {
   }
 
   shouldComponentUpdate(nextProps, nextState) {
-    return (nextProps.percentScrolled >= -.5 && nextProps.percentScrolled <= 1.5 )
+    return (nextProps.percentScrolled >= 1 && nextProps.percentScrolled <= 99 )
     ? true
     : false;
   }
 
   componentDidUpdate(prevProps, prevState) {
     let percentScrolled = this.props.percentScrolled;
-    if (percentScrolled >= -.5 && percentScrolled <= 1.5 ) {
-      let percent = (parseFloat(percentScrolled) + 0.5) / 2 ;
-      this.anim.progress(percent);
+    if (percentScrolled >= 0 && percentScrolled <= 100 ) {
+      this.anim.progress(percentScrolled/100);
     }
   }
 

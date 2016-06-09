@@ -22,11 +22,14 @@ export default class SectionContainer extends Component {
   }
 
   _setScrollPercent(node) {
+    /*let nodeBounds = node.getBoundingClientRect();
+    let nodeCenter = nodeBounds.top + (nodeBounds.height / 2);
+    let center = (1 + ((( -1 * nodeCenter) / nodeBounds.height)));*/
     let nodeBounds = node.getBoundingClientRect();
     let nodeCenter = nodeBounds.top + (nodeBounds.height / 2);
-    let center = (1 + ((( -1 * nodeCenter) / nodeBounds.height)));
-    //let center = nodeCenter / nodeBounds.height;
-    this.setState({percent: center});
+    let center = (1.5 + ((( -1 * nodeCenter) / nodeBounds.height))) / 2;
+    let scrollPercentRounded = Math.round(center * 100);
+    this.setState({percent: scrollPercentRounded});
   }
 
   render() {
