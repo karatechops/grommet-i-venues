@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import '../../lib/gsap/TimelineMax';
 import '../../lib/gsap/TweenMax';
 import '../../lib/gsap/plugins/DrawSVGPlugin';
@@ -185,18 +185,18 @@ function anim({target}) {
 }
 
 class Intro extends Component {
-	componentDidMount() {
+  componentDidMount() {
     this.anim = this.addAnimation(anim);
-	}
+  }
 
-	shouldComponentUpdate(nextProps, nextState) {
-		return false;
-	}
+  shouldComponentUpdate(nextProps, nextState) {
+    return false;
+  }
 
   render () {
     return (
       <div>
-      	<svg style={{width:'100%'}}id="stadium" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 911.3 167.5">
+        <svg style={{width:'100%'}}id="stadium" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 911.3 167.5">
           <path name="stadiumOutline" className="svg-stroke--dark" d="M348.8 162l-6.5-48.4s22.6-25.5 91.4-25.5c72.2 0 91.4 25.5 91.4 25.5l-6.2 48.4"/>
           <path className="svg-fill--white" d="M356.02 74.39l2.66-.47 3.764 21.37-2.66.47z"/>
           <g name="flag1">
@@ -349,7 +349,7 @@ class Intro extends Component {
           </g>
         </svg>
        
-       	<svg style={{width:'100%'}}className={`${CLASS_ROOT}__scene-item-stacked`} id="building3" xmlns="http://www.w3.org/2000/svg" viewBox="312 61.5 911.3 167.5">
+        <svg style={{width:'100%'}}className={`${CLASS_ROOT}__scene-item-stacked`} id="building3" xmlns="http://www.w3.org/2000/svg" viewBox="312 61.5 911.3 167.5">
           <path name="building3structure2" className="svg-stroke--brand" d="M1212.4 222.4v-29.6h-31.7v29.6"/>
           <path name="building3structure1" className="svg-stroke--dark" d="M1166 222.4v-60.1h-27.6"/>
           <g name="building3Lines">  
@@ -358,8 +358,8 @@ class Intro extends Component {
           </g>
         </svg>
       </div>
-    )
+    );
   }
-};
+}
 
 export default GSAP()(Intro);
