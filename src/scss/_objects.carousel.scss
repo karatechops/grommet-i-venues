@@ -44,12 +44,14 @@ $padding: 30px;
 
 .carousel {
 	width: 100%;
-	overflow: visible;
+	overflow: hidden;
+	overflow-y: visible;
 
 	.carousel__controls {
 		// Push dot nav below illustration.
 		// Remove for commit
-		bottom: -28px;
+		//bottom: -28px;
+		z-index: 3;
 	}
 
 	.carousel__control {
@@ -110,6 +112,12 @@ $padding: 30px;
 
 	.carousel__track {
 		transition: margin-left 0.8s;
+
+		.tiles--flush {
+			overflow-y: visible;
+
+			.box { overflow-y: visible; }
+		}
 	}
 
 @media(min-width: 45em) {
