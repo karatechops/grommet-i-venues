@@ -64,7 +64,7 @@
   	overflow: visible;
 
   	.headline--small {
-  		padding-top: 20px;
+  		//padding-top: 20px;
   	}
 
   	@media(min-width: 45em) {
@@ -88,7 +88,7 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     opacity: 100;
 
     @media(min-width: 500px) {
@@ -336,7 +336,7 @@
 	}
 
 	.carousel .carousel__controls {
-    bottom: -23px;
+    //bottom: -23px;
 	}
 
 	.grommet.layer.layer--flush .layer__container img {
