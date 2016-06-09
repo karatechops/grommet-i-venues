@@ -64,6 +64,10 @@ $padding: 30px;
 		width: 23px;
 	}
 
+	.carousel__item {
+		overflow: visible;
+	}
+
 	.carousel__control--active {
     stroke: $brand-accent;
     fill: $brand-accent;

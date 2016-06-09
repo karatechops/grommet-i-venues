@@ -21,7 +21,7 @@
   		overflow: visible;
   	}
 
-  	@media (max-height: 550px) {
+  	@media (max-height: 540px) {
   		padding-top: 10px;
   	}
 
@@ -38,6 +38,7 @@
 
   		@media(max-height: 650px), (max-width: 45em) {
   			font-size: 2.6rem;
+  			padding-top: 10px;
   		}
   	}
 
@@ -59,7 +60,7 @@
   	flex-direction: column;
   	justify-content: center;
   	align-items: center;
-  	max-height: 395px;
+  	max-height: auto;
   	padding-bottom: 8px;
   	overflow: visible;
 
@@ -271,7 +272,7 @@
 	}
 }
 
-@media(max-height: 550px) {
+@media(max-height: 450px) {
 	.headline--large {
 		font-size: 2rem;
 	}

@@ -66,7 +66,7 @@ class Animation2 extends Component {
         <Carousel autoplay={false} infinite={false} name="container">
           <div className={`${CLASS_ROOT}__carousel-item`}>
             <Headline size="small" name="text1">Turn-by-turn navigation and notifications provide your patrons with directions and up-to-date traffic and event information.</Headline>
-            <div className={`${CLASS_ROOT}__sub-container`} style={{width: '100%', maxWidth: '565px'}} name="container">
+            <div className={`${CLASS_ROOT}__sub-container`} style={{width: '100%', maxWidth: '565px', alignItems:'center'}} name="container">
               <div style={{width:'100%'}} className={`${CLASS_ROOT}__scene-item`}>
                 <img style={{width:'100%', zIndex:'2'}} className={`${CLASS_ROOT}__scene-item-stacked`} 
                   name="truck" src="/img/slide2/truck.svg" />
@@ -87,7 +87,7 @@ class Animation2 extends Component {
           </div>
           <div className={`${CLASS_ROOT}__carousel-item`}>
             <Headline size="small">Outdoor navigation helps your patrons quickly find available spots within venue parking options.</Headline>
-            <div className={`${CLASS_ROOT}__sub-container`} style={{width: '100%', maxWidth: '565px'}}>
+            <div className={`${CLASS_ROOT}__sub-container`} style={{width: '100%', maxWidth: '565px', alignItems:'center'}}>
               <div style={{width:'100%'}} className={`${CLASS_ROOT}__scene-item`}>
                 <img style={{width:'100%'}} src="/img/slide2/full2.svg" />
               </div>
