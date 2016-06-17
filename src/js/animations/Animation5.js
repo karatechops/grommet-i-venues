@@ -81,7 +81,7 @@ class Animation5 extends Component {
     return (
       <div className={CLASS_ROOT}>
         <Headline name="header" size="large" strong={true}>Fans order from their seats and never miss a beat</Headline>
-        <Headline name="text1" size="small">Proximity marketing, mobile ordering and mobile payment let visitors to take advantage of amenities without missing the action.</Headline>
+        <Headline name="text1" size="small">Proximity marketing, mobile ordering and mobile payment let visitors take advantage of amenities without missing the action.</Headline>
         <div className={`${CLASS_ROOT}__container`} style={{maxWidth: '470px'}} name="container">
           <Hotspot style={{zIndex:'2'}} content={hotspotContent} name="hotspot1" top={"60%"}>
             <div className={`${CLASS_ROOT}__sub-container`} name="bubble1">

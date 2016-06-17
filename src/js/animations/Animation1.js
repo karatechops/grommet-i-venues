@@ -49,7 +49,7 @@ class Animation1 extends Component {
     return (
       <div className={classes}>
         <Headline name="header" size="large" strong={true}>Intelligent Venues redefine the customer experience</Headline>
-        <Headline name="text1" size="small">HPE offers contextually-aware technologies that help stadiums and cultural institutions create world-class experiences that turn visitors into super fans.</Headline>
+        <Headline name="text1" size="small">HPE offers contextually-aware technologies that help stadiums and cultural institutions create world-class experiences that turn visitors into uber fans.</Headline>
         
         <div className={`${CLASS_ROOT}__sub-container`} style={{width: '115%', maxWidth:'1127px', height:'auto'}} name="container">
           <div className={`${CLASS_ROOT}__scene-item`} style={{width: '100%', transform:'translateZ(0)'}}>

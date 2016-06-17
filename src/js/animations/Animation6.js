@@ -55,7 +55,7 @@ class Animation6 extends Component {
             <img style={{width:'100%', maxWidth: '450px'}} src="/img/slide6/full1.svg" />
           </div>
           <div className={`${CLASS_ROOT}__carousel-item`}>
-            <Headline size="small">Self-guided tours, augmented reality and digital content make exhibits more immersive and bringing them to life for patrons.</Headline>
+            <Headline size="small">Self-guided tours, augmented reality and digital content make exhibits more immersive and bring them to life for patrons.</Headline>
             <img style={{width:'100%', maxWidth: '450px'}} src="/img/slide6/full3.svg" />
           </div>
         </Carousel>

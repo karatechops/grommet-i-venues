@@ -87,16 +87,16 @@ export default class Nav extends Component {
               <SocialShare type={"email"} 
               link={"http://intelligent-venues.grommet.io/"} 
               title={"Hewlett Packard Enterprise - Intelligent Venues"} 
-              text="HPE is helping stadiums, theme parks and cultural institutions turn visitors into super fans." />
+              text="HPE is helping stadiums, theme parks and cultural institutions turn visitors into uber fans." />
               <SocialShare type={"twitter"} 
               link={"http://intelligent-venues.grommet.io/"} 
-              text={"@HPE is helping stadiums, theme parks and cultural institutions turn visitors into super fans."} />
+              text={"@HPE is helping stadiums, theme parks and cultural institutions turn visitors into uber fans."} />
               <SocialShare type={"facebook"} 
               link={"http://intelligent-venues.grommet.io/"} />
               <SocialShare type={"linkedin"} 
               link={"http://intelligent-venues.grommet.io/"} 
               title={"Hewlett Packard Enterprise - Intelligent Venues"}
-              text="HPE is helping stadiums, theme parks and cultural institutions turn visitors into super fans." />
+              text="HPE is helping stadiums, theme parks and cultural institutions turn visitors into uber fans." />
             </div>
           </div>
         </Layer>
