@@ -27,16 +27,17 @@ class Animation1 extends Component {
   }
 
   shouldComponentUpdate(nextProps, nextState) {
-    return (nextProps.percentScrolled >= 0 && nextProps.percentScrolled <= 54 )
+    return (nextProps.percentScrolled >= 0 && nextProps.percentScrolled <= 58 )
     ? true
     : false;
   }
 
   componentDidUpdate(prevProps, prevState) {
     let percentScrolled = this.props.percentScrolled;
+    console.log(percentScrolled)
     if (percentScrolled > 0 && percentScrolled <= 60 ) {
       if (percentScrolled <= 50) this.animExit.tweenTo('enter');
-      if (percentScrolled > 51) this.animExit.tweenTo('leave');
+      if (percentScrolled >= 56) this.animExit.tweenTo('leave');
     }
   }
 

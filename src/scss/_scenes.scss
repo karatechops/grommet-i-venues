@@ -13,16 +13,17 @@
   	width: auto;
   	flex-grow: 0;
   	// Make some space for header.
-  	//margin-top: 20px;
+    margin-top: 60px;
   	margin-bottom: 5px;
   	overflow: hidden;
+    padding-top: 0;
 
   	@media(min-width:1109px) {
   		overflow: visible;
   	}
 
   	@media (max-height: 540px) {
-  		padding-top: 10px;
+  		//padding-top: 10px;
   	}
 
 		.headline--small {
@@ -31,6 +32,14 @@
 
   	.headline.headline--large {
   		font-size: 5.2rem;
+      padding: 30px;
+      margin: 0 24px 24px;
+      border: 8px solid #2AD2C9;
+      width: 90%;
+
+      @include media-query(lap-and-up) {
+        width: auto;
+      }
 
   		@media(max-width: 900px) {
   			font-size: 4.6rem;
@@ -85,12 +94,14 @@
 
 	.anim-button {
 		display: block;
-		position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 25px;
+		position: relative;
     opacity: 100;
+
+    @include media-query(lap-and-up) {
+      position: absolute;
+      bottom: 0;
+      transform: translateX(-50%);
+    }
 
     @media(min-width: 500px) {
     	margin-bottom: 10px;
@@ -115,15 +126,19 @@
 	    	cursor: auto;
 	    }
     }
-
+    
     &.anim-button--start::before {
 			display: block;
 			content: "scroll to start the journey";
     }
 
     &.anim-button--end {
+      position:absolute;
+      bottom: 0;
 			cursor: pointer;
-	    margin: 10px auto;
+      left: 50%;
+      transform: translateX(-50%);
+      padding-bottom: 10px;
 
 			.anim-button__icon {
 	    	border-radius: 225px;
