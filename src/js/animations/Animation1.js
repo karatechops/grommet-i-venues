@@ -34,7 +34,6 @@ class Animation1 extends Component {
 
   componentDidUpdate(prevProps, prevState) {
     let percentScrolled = this.props.percentScrolled;
-    console.log(percentScrolled)
     if (percentScrolled > 0 && percentScrolled <= 60 ) {
       if (percentScrolled <= 50) this.animExit.tweenTo('enter');
       if (percentScrolled >= 56) this.animExit.tweenTo('leave');
