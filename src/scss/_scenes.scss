@@ -47,7 +47,7 @@
 
   		@media(max-height: 650px), (max-width: 45em) {
   			font-size: 2.6rem;
-  			padding-top: 10px;
+  			padding: 10px 10px 13px;
   		}
   	}
 
@@ -126,14 +126,14 @@
 	    	cursor: auto;
 	    }
     }
-    
+
     &.anim-button--start::before {
 			display: block;
 			content: "scroll to start the journey";
     }
 
     &.anim-button--end {
-      position:absolute;
+      position: absolute;
       bottom: 0;
 			cursor: pointer;
       left: 50%;
