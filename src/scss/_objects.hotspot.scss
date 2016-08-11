@@ -61,7 +61,7 @@ $base-size: 40px;
 					border-radius: $base-size;
 					padding: 9px;
 					background: $brand-color-lighter;
-					stroke: #fff;
+					stroke: nth($brand-grey-colors, 1);
 			  }
 
 			  &::after {

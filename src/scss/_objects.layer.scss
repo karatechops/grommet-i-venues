@@ -11,8 +11,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-		background-color: $layer-bg;
-		color: #fff;
+		background-color: nth($brand-accent-colors, 1);
+		color: nth($brand-grey-colors, 1);
     padding-top: 24px;
     padding-bottom: 24px;
 
@@ -31,7 +31,7 @@
     }
 
     .layer__closer {
-    	svg { stroke: #fff; }
+    	svg { stroke: nth($brand-grey-colors, 1); }
     }
 
     img {
@@ -59,8 +59,8 @@
       }
 
       .anchor__icon svg {
-        fill: #ffffff;
-        stroke: #ffffff;
+        fill: nth($brand-grey-colors, 1);
+        stroke: nth($brand-grey-colors, 1);
       }
     }
   }
